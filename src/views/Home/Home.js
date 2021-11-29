@@ -19,15 +19,15 @@ export default function Home() {
       <Preview title={title} subtitle={subtitle} font={font} align={align} text={text} />
       <Editor
         title={title}
-        onTitleChange={setTitle}
+        setTitle={setTitle}
         subtitle={subtitle}
-        onSubtitleChange={setSubtitle}
+        setSubtitle={setSubtitle}
         font={font}
-        onFontChange={setFont}
+        setFont={setFont}
         align={align}
-        onAlignChange={setAlign}
+        setAlign={setAlign}
         text={text}
-        onTextChange={setText}
+        setText={setText}
       />
     </main>
   )
